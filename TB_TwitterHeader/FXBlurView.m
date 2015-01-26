@@ -225,9 +225,7 @@
     if (index != NSNotFound)
     {
         if (index <= self.viewIndex)
-        {
             self.viewIndex --;
-        }
         [self.views removeObjectAtIndex:index];
     }
 }
